@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>МОС</title>
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div>
+                    <a href="#0"><img src="img/mou.png"/></a>
+                </div>
+                <div class="d-lg-flex justify-content-between w-100 header">
+                    <div>
+                        <p class="header_p">Контакт-центр МОС з питань захворювання суглобів</p>
+                    </div>
+                    <div>
+                        <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-phone-alt"></i>ЗАМОВИТИ ДЗВІНОК</a>
+                    </div>
+                </div>
+            <div class="d-lg-flex justify-content-between icon">
+                <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                <a href="#0"><i class="fab fa-youtube"></i></a>
+                <a href="#0"><i class="fab fa-twitter"></i></a>
+                <a href="#0"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="list">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-12">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav col-12 d-flex justify-content-between">
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#home">ГОЛОВНА <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#why">ЧОМУ Instaflex®<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#THERAPY">ТЕРАПІЯ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#CONFLICT">ЗАХВОРЮВАННЯ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#CONSEQUENCES">НАСЛІДКИ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#about">ПРО Instaflex<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#CONDITIONS">УМОВИ ПРОГРАМИ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#PARTNERS">ПАРТНЕРИ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active col text-center head_list">
+                            <a class="nav-link" href="#ORDER">ЗАМОВЛЕННЯ <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+<section class="screen_one" id="home">
+    <div class="container">
+        <h5 class="col-12">ОСТАННІ НОВИНИ </h5>
+        <div class="row d-flex flex-lg-row flex-column-reverse">
+            <div class="col-lg-6">
+                <h2>МОС: завезено 5000 упаковок унікального препарату для лікування суглобів для українців</h2>
+                <h3>У зв'язку з наближенням карантину доступне онлайн-замовлення</h3>
+                <form id="form" name="order" action="thanks.php" method="post">
+                    <h4>Залишайте замовлення і ми зв'яжемось з Вами найближчим часом для оформлення відправки</h4>
+                    <p class="d-lg-block d-none">Кількість обмежена : <span> ЗАЛИШИЛОСЬ 37 ШТ.</span></p>
+                    <p>Введіть ваші дані для замовлення:</p>
+                    <div>
+                        <label>ПІБ</label>
+                        <input name="name" type="text" placeholder="( Прізвіще, ім’я , по-батькові)">
+                    </div>
+                    <div class="tel">
+                        <label>Ваш телефон:</label>
+                        <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="+38" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                    </div>
+                    <button>Замовити</button>
+                </form>
+            </div>
+            <div class="col-lg-6 col-12 w-100 right">
+                <div class="text-lg-center d-lg-block d-flex align-items-center">
+                    <p class="d-lg-none d-inline-block img_p">Кількість обмежена : <span> ЗАЛИШИЛОСЬ 37 ШТ.</span></p>
+                    <img src="img/astroset.png"/>
+                </div>
+                <p class="artroset">Instaflex® - унікальний комплекс проти суглобових хвороб не має аналогів на українському ринку.
+                    Даний склад був розроблений і вироблений вченими з США та Австралії в 2015 році, де пройшов клінічні випробування і вже зараз став доступний в Україні.
+                    Це найновіший препарат для суглобів з найбільшою доведеною ефективністю в світі.</p>
+                <p><span>Важливо:</span> Остерігайтеся підробок, офіційний препарат можно замовити тільки на нашому сайті.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_two" id="why">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <h4 class="text-right col-lg-12">ЧОМУ Instaflex®</h4>
+                <div class="col-lg-5 w-100">
+                    <iframe width="335" height="229" src="https://www.youtube.com/embed/d99X0fHbZJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-7">
+                    <p>
+                        Вчені з США спільно з вченими з Австралії розробили препарат, назва якого — «ARTROSET», це винахід, який відновлює та омолоджує ваші суглоби, а також знеболює їх.
+                        </p>
+
+                        <p>В ході клінічних досліджень цього препарату брало участь понад 3000 людей з Австралії та США, з них у 98% пацієнтів через 6 днів зменшилася біль у суглобах, а через півтора місяця у 93% людей суглоби повністю відновилися.
+                        Також препарат отримав всі сертифікати в США та Австралії.
+                            </p>
+
+                    <p> Через 1 рік було опитування серед тих, хто брав участь в клінічних випробуваннях Артосет. 99% людей розказали, що проблем з суглобами за цей час НЕ відбувалося, також з’явилось відчуття, що їх суглоби помолодшали років на 20 мінімум. А в 2021 році цей препарату став № 1 в усьому світу з лікування суглобів.</p>
+
+                        <p>Зараз він активно застосовується в Європі й Канаді, саме тому Україна закупила цей препарат і буде його реалізовувати за програмою 30+, де  потрібно буде платити лише 30% вартості препарату, а решту 70% оплачує фонд МОС.
+                    </p>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="screen_three" id="THERAPY">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12">ПРО ТЕРАПІЮ З Instaflex®</h2>
+            <h4 class="col-12">В комплексній терапії з Instaflex® Ви гарантовано позбавитеся від таких хвороб, як:</h4>
+                <div class="col-lg-7">
+                    <ul>
+                        <li>Артрит і артроз</li>
+                        <li>Синовит</li>
+                        <li>Остеохондроз і остеопороз</li>
+                        <li>Бурсит</li>
+                        <li>Подагра</li>
+                        <li>П'яткова шпора</li>
+                        <li>Міжхребцева грижа</li>
+                        <li>Коксартроз</li>
+                    </ul>
+                    <p>А також від хвороб, які важко протікають, таких як: кіста хребта, хвороба Бехтєрєва, кіста Бейкера, бурсит, гігрома, грижа Шморля, дисплазія, дорсопатія, ішіас, кіфоз, лордоз, люмбаго, міжреберна невралгія, міозит, запалення хребетного стовпа, сколіоз, спондильоз, спондилоартроз, тендовагініт, трохантеріт, хондроз, епікондиліт.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="img/img_scr_three.jpg"/></div>
+        </div>
+    </div>
+</section>
+<section class="screen_four" id="CONFLICT">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-right col-12">ХВОРОБА,СИМПТОМИ,НАСЛІДКИ</h2>
+            <h3 class="col-lg-12">Instaflex® ДОПОМОЖЕ, ЯКЩО У ВАС:</h3>
+            <div class="slider owl-carousel d-flex align-items-center">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_screen_four.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Артрит і артроз</h4>
+                        <p><span>СИМПТОМИ: </span>Біль при русі і в стані спокою, хрускіт, утруднений рух, виникнення шпор і кістообразних структур.</p>
+                        <p><span>НАСЛІДКИ: </span>Деформація суглоба. Повна нерухомість.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_one.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Остеохондроз і остеопороз</h4>
+                        <p><span>СИМПТОМИ: </span>Періодичне оніміння кінцівок, біль у спині і хребті, біль в області серця і ребер.</p>
+                        <p><span>НАСЛІДКИ: </span>Судинні порушення, параліч, протрузія і грижа диска в шийному відділі.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_two.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Бурсит</h4>
+                        <p><span>СИМПТОМИ: </span>Сильний набряк в області пошкодженого суглоба, хворобливі відчуття при пальпації, почервоніння шкіри з нечіткими межами в області пухлини.</p>
+                        <p><span>НАСЛІДКИ: </span>Порушення рухливості суглоба або повна нерухомість кінцівки, поразка гноєм тканин, зараження крові, поява свищів, повна втрата рухової здатності суглоба.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom"  data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_three.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Синовит</h4>
+                        <p><span>СИМПТОМИ: </span>Скутість рухів, біль при пальпації, поразка великих суглобів, інтенсивні неприємні відчуття і набряклість в ураженій області.</p>
+                        <p><span>НАСЛІДКИ: </span>Поразка великих суглобів, зараження крові, параліч.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_four.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Подагра</h4>
+                        <p><span>СИМПТОМИ: </span>Гострий приступ, запалення одного або декількох суглобів, почервоніння і набряклість суглоба, підвищення температури тіла і озноб, біль при русі.</p>
+                        <p><span>НАСЛІДКИ: </span>Розвиток сечокам'яної хвороби, в важких випадках з результатом в ниркову недостатність, руйнування суглобів, постійні болі, інвалідність.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_five.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Міжхребцева грижа</h4>
+                        <p><span>СИМПТОМИ: </span>Гострий приступ, запалення одного або декількох суглобів, почервоніння і набряклість суглоба, підвищення температури тіла і озноб, біль при русі.</p>
+                        <p><span>НАСЛІДКИ: </span>Розвиток сечокам'яної хвороби, в важких випадках з результатом в ниркову недостатність, руйнування суглобів, постійні болі, інвалідність.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_six.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: Коксартроз</h4>
+                        <p><span>СИМПТОМИ: </span>Біль в суглобі. Скутість рухів, тугоподвижность суглоба.</p>
+                        <p><span>НАСЛІДКИ: </span>Порушення ходи, вкорочення кінцівки на стороні пора вання. Руйнування суглоба. Бурсити. Інвалідність.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/img_carusel_seven.jpg"/>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1">
+                        <h4>ХВОРОБА: П'яткова шпора</h4>
+                        <p><span>СИМПТОМИ: </span>Гострий біль в стопі.</p>
+                        <p><span>НАСЛІДКИ: </span>Порушення ходи. Руйнування фасції. Нагноєння. Некроз тканин.</p>
+                        <div class="d-lg-block d-flex justify-content-center">
+                            <a href="#0" class="bottom" data-toggle="modal" data-target="#exampleModal">Усунути проблему</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_five"id="CONSEQUENCES">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>НАСЛІДКИ ТА РИЗИКИ</h2>
+                <h3>Якщо суглоби не лікувати своєчасно або лікувати неправильно,
+                    хвороба доведе вас до інвалідного візка менш ніж за 3 роки!
+                </h3>
+                <div class="list_two">
+                    <h4>Наслідки:</h4>
+                    <ul>
+                        <li> деформація кісток</li>
+                        <li> нестерпний біль</li>
+                        <li>параліч</li>
+                        <li> повна втрата дієздатності</li>
+                        <li> необхідність операції</li>
+                    </ul>
+                </div>
+                <p>Вартість операції із заміни одного суглоба становить
+                    від 4 500 до 15 800 Євро.</p>
+            </div>
+            <div class="col-lg-6 w-100 right">
+                <img src="img/img_screen_five.jpg"/></div>
+        </div>
+    </div>
+</section>
+<section class="screen_six" id="about">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-right col-12">ЗАМОВЛЕННЯ Instaflex®</h2>
+            <div class="d-md-none d-block col-12 text-center">
+                <img src="img/form_img.png"/>
+            </div>
+                <div class="col-lg-6 left">
+                    <div class="list_three">
+                        <h4>Instaflex®</h4>
+                        <ul>
+                            <li>Відновлює кісткову і хрящову тканину
+                            </li>
+                            <li> Миттєво полегшує біль
+                                зупиняє запальний процес</li>
+                            <li> Позбавляє від болю і набряків в суглобах
+                                позбавляє від хрускоту в суглобах</li>
+                        </ul>
+                    </div>
+                    <p>Instaflex® - унікальний комплекс проти суглобових хвороб не має аналогів на українському ринку.
+                        Даний склад був розроблений і вироблений вченими з США та Австралії в 2015 році, де пройшов клінічні випробування і вже зараз став доступний в Україні.
+                        Це найновіший препарат для суглобів з найбільшою доведеною ефективністю в світі.</p>
+                    <h5><span>Важливо:</span> Остерігайтеся підробок, офіційний препарат можно замовити тільки на нашому сайті.</h5>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <form name="order" action="thanks.php" method="post">
+                        <h4>Залишайте замовлення і ми зв'яжемось з Вами найближчим часом для оформлення відправки</h4>
+                        <p>Кількість обмежена : <span> ЗАЛИШИЛОСЬ 37 ШТ.</span></p>
+                        <p>Введіть ваші дані для замовлення:</p>
+                        <div>
+                            <label>ПІБ</label>
+                            <input name="name" type="text" placeholder="( Прізвіще, ім’я , по-батькові)">
+                        </div>
+                        <div class="tel">
+                            <label>Ваш телефон:</label>
+                            <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="+38" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                        </div>
+                        <button>Замовити</button>
+                        <h5>Вартість по - <span>42 грн</span></h5>
+                        <h6>*при замовленні курсу</h6>
+                        <img src="img/form_img.png"/>
+                    </form>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="screen_seven" id="CONDITIONS">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12">ПРО Instaflex®</h2>
+            <div class="col-lg-5">
+                <img src="img/img_scr_seven.png"/>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+                <ul>
+                    <li>Харчова цінність в 100 г продукту (середні значення): вуглеводи - 89 г.</li>
+                    <li> Енергетична цінність: 750 кДж / 180 ккал.</li>
+                    <li>Термін придатності: 24 місяці з дати виготовлення. Зберігати в темному, сухому, недоступному для дітей місці при t не вище +25 ° С.</li>
+                    <li>Відпускається без рецепта.</li>
+                    <li>Виробник: USA and Australia, 4035, Brisbane, Birley str.
+                        В упаковці 20 капсул по 500 мг і інструкція із застосування.</li>
+                </ul>
+            </div>
+            <div class="d-flex flex-lg-row flex-column-reverse">
+                <div class="col-lg-8">
+                    <p>Склад: носії сорбітол і ізомальт, глюкозамін, кальцію стеарат, кремнію діоксид, екстракт листя кропиви, мінеральний премікс (кальцію карбонад, калію хлорид, магнію оксид, міді сульфат, марганцю сульфат, калію йодат, натрію селеніт).
+                    </p>
+                    <div class="d-lg-block d-flex justify-content-center">
+                        <a href="#0"class="bottom" data-toggle="modal" data-target="#exampleModal">Оформити замовлення</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="sertivilat">
+                        <img src="img/sertivilat.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_eight" id="PARTNERS">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-12 text-right">НАШІ ОФІЦІЙНІ ПАРТНЕРИ</h2>
+            <h3 class="col-lg-12">ПРЕПАРАТ ПІДТРИМУЮТЬ:</h3>
+            <div class="slider_two owl-carousel screen_eight_carousel">
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_one.png"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_two.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_three.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_four.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_five.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_six.png"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_seven.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_eit.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_nine.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_ten.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_11.png"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_12.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_13.jpg"/></a>
+                </div>
+                <div class="d-flex">
+                    <a class="col-lg-12"><img src="img/scr_eight_carusel_14.jpg"/></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_nine" id="ORDER">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-12">ЗАСТОСУВАННЯ Instaflex®| ПРОГРАММА</h2>
+            <h3 class="col-lg-12">КАПСУЛИ ДЛЯ ВНУТРІШНЬОГО ЗАСТОСУВАННЯ:</h3>
+            <div class="col-lg-5">
+                <img src="img/img_scr_seven.png"/>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <p><span>Спосіб застосування:</span><br>
+                    По 1 капсулі в день під час їжі, запиваючи 100 мл рідини. Тривалість прийому 2-4 тижні.</p>
+                <p><span>Протипоказання:</span><br>
+                    індивідуальна непереносимість компонентів.</p>
+                <h4>Засіб пріймання:</h4>
+                <ul>
+                    <li>1. Приймайте капсулу за 30 хвилин до їжі.</li>
+                    <li>2. Видавлюйте капсулу з блістери.</li>
+                    <li>3. Проковкуйте капсулу, запивши 100 мл чистої негазованої води.</li>
+                    <li>4. Приймайте по рекомендації фахівця.</li>
+                </ul>
+                <div class="d-lg-block d-flex justify-content-center">
+                    <a href="#form">Оформити замовлення</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="screen_ten">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-12">ЗАМОВЛЕННЯ Instaflex®</h2>
+            <div class="d-md-none d-block col-12 text-center img_ten">
+                <img src="img/form_img.png"/>
+            </div>
+                <div class="col-lg-6 left">
+                    <div class="list_three">
+                        <h4>Instaflex®</h4>
+                        <ul>
+                            <li>Відновлює кісткову і хрящову тканину
+                            </li>
+                            <li> Миттєво полегшує біль
+                                зупиняє запальний процес</li>
+                            <li> Позбавляє від болю і набряків в суглобах
+                                позбавляє від хрускоту в суглобах</li>
+                        </ul>
+                    </div>
+                    <p>Instaflex® - унікальний комплекс проти суглобових хвороб не має аналогів на українському ринку.
+                        Даний склад був розроблений і вироблений вченими з США та Австралії в 2015 році, де пройшов клінічні випробування і вже зараз став доступний в Україні.
+                        Це найновіший препарат для суглобів з найбільшою доведеною ефективністю в світі.</p>
+                    <h5><span>Важливо:</span> Остерігайтеся підробок, офіційний препарат можно замовити тільки на нашому сайті.</h5>
+                </div>
+                <div class="col-lg-5 offset-lg-0">
+                    <form name="order" action="thanks.php" method="post">
+                        <h4>Залишайте замовлення і ми зв'яжемось з Вами найближчим часом для оформлення відправки</h4>
+                        <p>Кількість обмежена : <span> ЗАЛИШИЛОСЬ 37 ШТ.</span></p>
+                        <p>Введіть ваші дані для замовлення:</p>
+                        <div>
+                            <label>ПІБ</label>
+                            <input name="name" type="text" placeholder="( Прізвіще, ім’я , по-батькові)">
+                        </div>
+                        <div class="tel">
+                            <label>Ваш телефон:</label>
+                            <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="+38" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                        </div>
+                        <button>Замовити</button>
+                        <h5>Вартість по - <span>42 грн</span></h5>
+                        <h6>*при замовленні курсу</h6>
+                        <img src="img/form_img.png"/>
+                    </form>
+                </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-lg-left text-center">
+                <p>01601, м. Київ, вул.Мирна, 7</p>
+                <a href="#0" class="bottom logo" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-phone-alt"></i>ЗАМОВИТИ ДЗВІНОК</a>
+            </div>
+            <div class="col-lg-4 text-center d-flex flex-column justify-content-center">
+                <h4><a href="../politika.html" target="_blank"><u><b>Політика конфіденційності</b></u></a></h4>
+            </div>
+            <div class="col-lg-4 text-lg-right text-center">
+                <a href="#0"><img src="img/mou.png"/></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form name="order" action="thanks.php" method="post">
+                    <h4>Бажаєте отримати консультацію про препарат Instaflex® ?</h4>
+                    <p>Введіть ваші дані та ми зв’яжемось з Вами протягом
+                        найближчого часу:</p>
+                    <div>
+                        <label>ПІБ</label>
+                        <input name="name" type="text" placeholder="( Прізвіще, ім’я , по-батькові)">
+                    </div>
+                    <div class="tel">
+                        <label>Ваш телефон:</label>
+                        <input class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="+38" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                    </div>
+                    <button>Замовити</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://kit.fontawesome.com/421ca2af13.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
